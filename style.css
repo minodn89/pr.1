@@ -194,3 +194,71 @@ background-color: rgba(184, 175, 175, 0.274);
     background-color: rgb(159, 189, 228);
     
 }
+.log-body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    background-color: rgb(211, 231, 240);
+   
+}
+
+.svg-icon{
+    height: 22px;
+    margin: 0 5px -4px ;
+}
+.login-div{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(159, 189, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -17px -16px 12px -2px rgba(170,190,204,0.68);
+-webkit-box-shadow: -17px -16px 12px -2px rgba(170,190,204,0.68);
+-moz-box-shadow: -17px -16px 12px -2px rgba(170,190,204,0.68);
+border-radius: 15px;
+position: relative;
+}
+.feild input{
+    border: none;
+    /* background: none; */
+    padding: 10px 10px 10px 5px;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+.login-buttom{
+    border: none;
+   width: 100%;
+   cursor: pointer;
+   height: 30px;
+   background-color: turquoise;
+   color: white;
+   font-size: 15px;
+   border-radius: 15px;
+   font-weight: 500px;
+}
+.login-buttom:hover{
+    background-color: rgb(56, 180, 168);
+    transition: 0.5s;
+    
+   }
+.buttom2{ 
+    font-weight:bold;
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    
+} 
+.buttom2:hover{
+    background-color: darkgray;
+    transition: 0.6s;
+}
